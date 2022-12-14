@@ -35,6 +35,7 @@ $(document).ready(function () {
         type: "GET",
     }).done(function (response) {
         console.log(response)
+        console.log(response.message)
         quantPaises = response.length
 
         for (var i = 0; i < quantPaises; i++) {

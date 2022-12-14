@@ -127,12 +127,16 @@ body {
 
 .image_pais {
     background-color: #1f2d36;
+    border: 1px solid black;
+    margin: 0px;
+    height: 146px;
 }
 
 .image_pais img {
     width: 100%;
-    height: 200px;
+    height: 146px;
     background-color: #1f2d36;
+
 }
 
 .dados_pais {
