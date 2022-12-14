@@ -33,8 +33,6 @@ $(document).ready(function () {
         url: "https://restcountries.com/v3.1/all",
         type: "GET",
     }).done(function (response) {
-        console.log(response)
-        console.log(response.message)
         quantPaises = response.length
 
         for (var i = 0; i < quantPaises; i++) {
