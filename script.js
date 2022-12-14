@@ -28,7 +28,6 @@ $(document).ready(function () {
 
     })
 
-    $(".box_pais").css("display", "none")
 
     $.ajax({
         url: "https://restcountries.com/v3.1/all",
